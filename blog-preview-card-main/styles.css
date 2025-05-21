@@ -1,0 +1,65 @@
+body {
+    font-family: "Figtree";
+    font-size: 16px;
+    color: #121212;
+    margin:0px;
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: #f4d04e;
+}
+
+.card {
+    background:white;
+    padding:20px;
+    border:1px solid black;
+    border-radius:20px;
+    max-width:360px;
+    width:75%;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1.0);
+}
+
+.cover-img {
+    width:100%;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.tag {
+    padding:4px 8px;
+    background:#f4d04e;
+    font-weight:700;
+    border-radius:4px;
+    display:inline-block;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    margin-bottom: 16px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size:1.5rem;
+    margin-bottom:12px;
+    letter-spacing:-0.01em;
+}
+
+.body-text {
+    color: #6b6b6b;
+    margin-bottom:1rem;
+}
+
+.author {
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight: 700;
+}
+
+.author-img {
+    width:40px;
+    height:40px;
+}
