@@ -86,6 +86,7 @@ p {
 .secondary-price {
     color:var(--grey);
     line-height:150%;
+    text-decoration:line-through;
 }
 
 .button {
